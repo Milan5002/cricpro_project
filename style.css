@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    background-repeat: no-repeat;
+    background-size: 68vw 100vh;
+    background-position: right bottom;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size: 45px;
+    font-weight: bolder;
+    text-shadow: 4px 2px 4px #969696;
+}
+h2{
+    color: #717171;
+    padding-bottom: 20px;
+}
+.logo{
+    position: absolute;
+    top: 3%;
+    right: 4%;
+
+}
+.main{
+    padding-top: 50px;
+    padding-left: 170px;
+}
+th{
+    background-color: #F05033;
+    color: white;
+}
+table{
+    width: 900px;
+    height: 500px;
+}
+table,th,td{
+    font-size: 20px;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: left;
+    border-bottom:1px solid #838383;
+  }
+  table{
+    box-shadow: 1px 1px 1px #717171;
+    background-color: white;
+  }
+  td:nth-child(3),td:nth-child(4){
+    text-align: center;
+  }
+  td:last-child{
+    text-align: right;
+    width: 10px;
+  }
+  .link{
+    color:rgb(105,166,242);
+  }
+  .bowlers{
+    font-weight: lighter;
+    color: #848484;
+    padding-left: 40px;
+  }
+  .footer{
+    padding: 35px 0px 30px 175px;
+    font-weight: 750;
+  }
+
+  .none {
+    display: none;
+  }
+  .link:hover{
+    .none {
+      display: block;
+      position: absolute;
+      transform: translateY(-5%);
+    }
+  }
+  .hover:hover{
+    .none {
+      display: block;
+      position: absolute;
+      transform: translateY(-2%);
+    }
+  }
+.Extraplayers{
+  color:rgb(105,166,242);
+}
+  .flex {
+    display: flex;
+    flex-direction: row;
+  }
